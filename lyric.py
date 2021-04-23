@@ -15,7 +15,7 @@ def lyrics():
         # print(f'I know an old lady who swallowed a {animal}. Perhaps she will die.')
         # print(f'{verse} {animal}. Perhaps she will die' )
         # print(f'She swallowed the {animal[1]} to cathch the {animals[0]} {verse_3}.')
-        print(f'She swallowed the {animals[0]} to cathch the fly. {verse_2}')
+        
         if animal == "spider":
             print(f'{verse_1} {animal}. That wriggled and jiggled and tickled inside her.')
             # print(f'She swallowed the {animal} to cathch the fly. {verse_2}')
@@ -71,7 +71,8 @@ def lyrics():
             # print(f'She swallowed the {animals[animals.index(animal)]} to cathch the fly.{verse_2}')
             # print(f'She swallowed the {animals[animals.index(animal)+5]} to cathch the {animals[animals.index(animal)+4]}')
         
-        elif animal == "horse":
+        print(f'She swallowed the {animals[0]} to cathch the fly. {verse_2}')
+        if animal == "horse":
             print(f"{verse_1} {animal}. She's dead, of course!")
         
 
